@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostelbird Optimized Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search-container">
+        <h2>Find your next stay</h2>
+        
+        <div class="input-group">
+            <label>Location</label>
+            <input type="text" id="location" placeholder="Where are you going?">
+        </div>
+
+        <div class="date-row">
+            <div class="input-group">
+                <label>Check in</label>
+                <input type="date" id="check-in">
+            </div>
+            <div class="input-group">
+                <label>Check out</label>
+                <input type="date" id="check-out">
+            </div>
+        </div>
+
+        <button id="submit-btn" class="main-btn">Let's Start</button>
+
+        <div id="demand-capture" class="hidden">
+            <p>We aren't in this city yet. Want us to launch there?</p>
+            <button class="secondary-btn">Notify Me</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
